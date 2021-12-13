@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #FFB703;
+		background: #e5989b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,9 +98,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #023047;
+		color: #a2a2a2;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 20pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -111,18 +111,18 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #023047;
+		color: #49bf9d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #8ECAE6 !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #023047;
+		color: #6d6875;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #023047;
+		color: #6d6875;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -190,7 +190,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #219EBC;
+		border-bottom: solid 2px #efefef;
 		margin: 2em 0;
 	}
 
@@ -199,16 +199,16 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #219EBC;
+		border-left: solid 6px #efefef;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
 	code {
-		background: #219EBC;
+		background: #f7f7f7;
 		border-radius: 0.35em;
-		border: solid 2px #219EBC;
+		border: solid 2px #efefef;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1771,13 +1771,13 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1.5em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.5em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1.5em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
@@ -2445,9 +2445,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		/* border: solid 3px #efefef; */
-		background-color: #023047;
-		color: #FFB703 !important;
+		border: solid 3px #efefef;
+		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2465,18 +2464,17 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #8ECAE6;
-			color: #FFB703 !important;
-			background-color: #219EBC;
+			border-color: #49bf9d;
+			color: #49bf9d !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #219EBC;
+			background-color: rgba(73, 191, 157, 0.1);
 			border-color: #49bf9d;
-			color: #FFB703 !important;
+			color: #49bf9d !important;
 		}
 
 		input[type="submit"].icon,
@@ -2593,9 +2591,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #023047;
+		background-color: #14213d;
 		background-attachment: scroll,								scroll;
-		/* background-image: url("images/overlay.png"), ubg.jpg"); */
+		background-image: linear-gradient(#6d6875,#b5838d,#6d6875);
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3079,8 +3077,8 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #023047;
-				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+				background-color: #1f1815;
+				background-image: url("images/overlay.png"), url("../../images/bg(2).jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
